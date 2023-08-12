@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 23 - Semantic</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #a17a69;
+            color: b5927f;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #ceaa9a;
+            padding: 10px 0;
+        }
+
+        nav li {
+            margin: 0 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #06334b;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        main ul {
+            list-style: disc;
+            margin-left: 30px;
+            text-align: left;
+        }
+
+        article, section, aside {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ebcdc3;
+            border-radius: 5px;
+        }
+
+        article h2, section h3, aside h4 {
+            margin-top: 0;
+        }
+
+        aside ul {
+            list-style: disc;
+            margin-left: 20px;
+        }
+
+        figure {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        img.circular {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #e8dbd5;
+        }
+
+        time {
+            display: block;
+            text-align: center;
+            color: #7a8ea1;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>Unione</header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#tutors">Tutors</a></li>
+            <li><a href="#partners">Partners</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#Updates">Updates</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Selamat Datang!</h1>
+        <p>Jelajahi pengalaman belajar yang menyenangkan</p>
+        <ul>
+            <li>Belajar bersama tutor berpengalaman yang siap membantu</li>
+            <li>Kursus interaktif</li>
+            <li>Kenyamanan dalam belajar online</li>
+            <li>Materi yang berkualitas</li>
+            <li>Sertifikat pencapaian</li>
+        </ul>
+    </main>
+    <article>
+        <h2>Bacalah ini sebagai motivasi!</h2>
+        <p>Petualangan Sejati</p>
+        <ul>
+            <li>Jika anda ingin memahami dunia lebih baik maka belajar lah hal-hal yang  sebelum nya belum diketahui</li>
+            <li>Keluar dari zona nyaman dan hadapi kesulitan</li>
+            <li>Tumbuhlah dengan pengetahuan untuk pandangan lebih luas</li>
+            <li>Merangkul dalam berpikir kritis</li>
+        </ul>
+    </article>
+    <section>
+        <h3>Tentang Kami</h3>
+        <p>Kami adalah platform pembelajaran online yang berdedikasi untuk memberikan pengetahuan dan keterampilan kepada semua orang di seluruh dunia</p>
+        <p>Dengan kurikulum berkualitas dan tutor yang berpengalaman, kami berkomitmen untuk membantu Anda mencapai tujuan pendidikan Anda</p>
+    </section>
+    <aside>
+        <h4>Berita Terbaru!</h4>
+        <ul>
+            <li><a href="#Updates">Tips tetap produktif saat libur</a></li>
+            <li><a href="#Updates">Cara menata kamar tidur yang efisien untuk belajar</a></li>
+            <li><a href="#Updates">Panduan memilih jurusan untuk MABA!</a></li>
+        </ul>
+    </aside>
+    <figure>
+        <img src="tutor.jpg" alt="Tutor and partners" class="circular">
+        <figcaption>Tutor mu akan siap membantu</figcaption>
+    </figure>
+    <footer>
+        <p>Hak Cipta © 2023 Unione</p>
+    </footer>
+    <time>
+        <p>Diterbitkan pada <time datetime="2023-08-09T10:30:00Z">9 Agustus 2023</time></p>
+    </time>
+</body>
+</html>

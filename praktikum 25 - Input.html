@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 25 - Input</title>
+</head>
+<body>
+    <h1>Riwayat singkat</h1>
+    <form action="proses_data.php" method="POST">
+    <input type="text" name="nama" placeholder="Masukkan nama anda"><br><br>
+    <input type="password" name="Kata_sandi" placeholder="Masukkan kata sandi"><br><br>
+    <label for="email">Alamat Email:</label>
+    <input type="email" id="email" name="email" placeholder="Masukkan alamat email anda" required><br><br>
+    <input type="number" name="umur" min="18" max="100"><br><br>
+    <input type="checkbox" name="hobi" value="membaca">membaca<br><br>
+    <input type="checkbox" name="hobi" value="menulis">menulis<br><br>
+    <input type="radio" name="jenis_kelamin" value="pria">pria<br><br>
+    <input type="radio" name="jenis_kelamin" value="wanita">wanita<br><br>
+    <input type="file" name="berkas"><br><br>
+    <input type="date" name="tanggal_lahir"><br><br>
+    <label for="waktu">Pilih Waktu:</label>
+    <input type="time" id="waktu" name="waktu" min="08:00" max="17.00" required><br><br>
+    <label for="warna">Pilih Warna:</label>
+    <input type="color" id="warna" name="warna" value="#ff0000"><br><br>
+    <label for="volume">Atur Volume</label>
+    <input type="range" id="volume" name="volume" min="0" max="100" step="1" value="50"><br><br>
+    <button type="submit">Submit</button>
+    <input type="reset" value="Reset"><br><br>
+    <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
